@@ -5,17 +5,163 @@
         <meta charset="utf-8">
         <style>
             body {
-                background-color: gray;
+                background-color: lightgray;
+            }
+            header {
+                text-align: center;
+            }
+            section {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            .thumbnail {
+                border: 2px solid black;
+                width: 342px;
+                height: 192px;
+            }
+            .details {
+                margin-left: 20px;
+                width: 30%;
+            }
+            @media (max-width: 400px)
+            {
+                section {
+                    flex-direction: column;
+                }
+                .details {
+                    width: 90%;
+                }
             }
         </style>
         <title>Portfolio Page</title>
     </head>
     <body>
         <header>
-            Portfolio Page
+            <h1>Portfolio Page</h1>
         </header>
         <section>
-
+            <h2>Flat Iron School Projects</h2>
+        </section>
+        <section>
+            <div class="thumbnail">
+                <a href="https://cch0088.github.io/fruitbasket/">
+                    <img src="./img/thumb1.png" alt="Fruit Basket">
+                </a>
+            </div>
+            <div class="details">
+                <div><h3>Fruit Basket</h3></div>
+                <div><p>Displays fruit nutritional contents and allows to sort fruits by their contents</p></div>
+                <div>Technologies used:
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>JSON database server</li>
+                    </ul>
+                </div>
+                <div>GitHub links:
+                    <ul>
+                        <li><a href="https://github.com/cch0088/fruitbasket">Source Code</a></li>
+                        <li><a href="https://cch0088.github.io/fruitbasket/">Demo Site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="thumbnail">
+                <a href="https://cch0088.github.io/pizzashop/">
+                    <img src="./img/thumb2.png" alt="Pizza Shop">
+                </a>
+            </div>
+            <div class="details">
+                <div><h3>Pizza Shop</h3></div>
+                <div><p>Build a customized pizza ready to order or choose an existing pizza from the menu</p></div>
+                <div>Technologies used:
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>JSON database server</li>
+                    </ul>
+                </div>
+                <div>GitHub links:
+                    <ul>
+                        <li><a href="https://github.com/cch0088/pizzashop">Source Code</a></li>
+                        <li><a href="https://cch0088.github.io/pizzashop/">Demo Site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="thumbnail">
+                <img src="./img/thumb3.png" alt="Speaker Calculator">
+            </div>
+            <div class="details">
+                <div><h3>Speaker Calculator</h3></div>
+                <div><p>Calculate speaker inductance and capacitance values and required amplifier power</p></div>
+                <div>Technologies used:
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL Alchemy</li>
+                    </ul>
+                </div>
+                <div>GitHub links:
+                    <ul>
+                        <li><a href="https://github.com/cch0088/speaker-calc">Source Code</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="thumbnail">
+                <a href="https://cch0088.github.io/LakeZulu/">
+                    <img src="./img/thumb4.png" alt="Lake Zulu Boat Rentals">
+                </a>
+            </div>
+            <div class="details">
+                <div><h3>Lake Zulu Boat Rentals</h3></div>
+                <div><p>Reservation system with dynamic pricing for managing boat rentals on lake Zulu</p></div>
+                <div>Technologies used:
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Python</li>
+                        <li>SQL Alchemy</li>
+                        <li>Flask Web Framework</li>
+                    </ul>
+                </div>
+                <div>GitHub links:
+                    <ul>
+                        <li><a href="https://github.com/cch0088/LakeZulu">Source Code</a></li>
+                        <li><a href="https://cch0088.github.io/LakeZulu/">Demo Site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="thumbnail">
+                <a href="https://cch0088.github.io/cakecity/">
+                    <img src="./img/thumb5.png" alt="Cake City Personalized Birthday Cakes">
+                </a>
+            </div>
+            <div class="details">
+                <div><h3>Cake City Personalized Birthday Cakes (Work in progress)</h3></div>
+                <div><p>Customized and personalized birthday cakes</p></div>
+                <div>Technologies used:
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Python</li>
+                        <li>SQL Alchemy</li>
+                        <li>Flask Web Framework</li>
+                    </ul>
+                </div>
+                <div>GitHub links:
+                    <ul>
+                        <li><a href="https://github.com/cch0088/cakecity">Source Code</a></li>
+                        <li><a href="https://cch0088.github.io/cakecity/">Demo Site</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </body>
 </html>
